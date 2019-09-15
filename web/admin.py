@@ -9,3 +9,7 @@ class AdminExpense(admin.ModelAdmin):
 @admin.register(models.Income)
 class AdminIncome(admin.ModelAdmin):
     pass
+
+@admin.register(models.token)
+class Admintoken(admin.ModelAdmin):
+    pass
